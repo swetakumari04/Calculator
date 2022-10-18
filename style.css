@@ -1,0 +1,101 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 20px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(237, 139, 190);
+    color: black;
+background: radial-gradient(circle, rgb(237, 139, 190) 61%, rgba(26, 2, 18, 0.317) 100%);
+}
+.calculator{
+    width: 350px;
+    background-color: rgb(255, 0, 255);
+    flex-direction: column;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+   
+}
+.footer{
+    text-emphasis-color: black;
+    background-color: rgb(185, 4, 185);
+    margin: 20px ;
+    display: flex;
+    width: 150px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer:link {
+    color: black;
+}
+
+/* visited link */
+footer:visited {
+    color: blue;
+}
+.footer:hover{
+    background-color: rgb(22, 215, 51);
+}
+.result{
+    width: 100%;
+    height: 30%;
+}
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 177, 177);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: 12px;
+}
+.icons:hover{
+    background-color: rgb(22, 215, 51);
+}
+.row5{
+    justify-content:space-between;
+    width: 220px;
+    margin-left: 108px;
+}
+.result{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.result p{
+    font-size: 25px;
+    margin-right: 35px;
+}
+.icons{
+    background-color: rgb(237, 198, 198);
+}
+.divide{
+    background-color: rgb(212, 255, 0); 
+}
+.mult{
+    background-color: rgb(212, 255, 0);
+}
+.add{
+    background-color: rgb(212, 255, 0);
+}
+.minus{
+    background-color: rgb(212, 255, 0);
+}
+.equal{
+    background-color: rgb(212, 255, 0);
+}
