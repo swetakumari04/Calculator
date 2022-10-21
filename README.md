@@ -2,7 +2,7 @@
 A calculator to perform basic addition, subtraction, multiplication and division
 
 ## Made with
-<ul>HTML</ul
+<ul>HTML</ul>
 <ul>CSS</ul>
 <ul>JS</ul>
 
